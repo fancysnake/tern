@@ -1,0 +1,6 @@
+site_name: Tern
+docs_dir: content
+nav:
+  - Strona główna: index.md
+  - Mechanika: mechanika.md
+  - Devlog: devlog.md

@@ -1,0 +1,24 @@
+[settings]
+# Sequential execution to avoid race conditions in parallel tests
+jobs = 1
+
+[tools]
+python = "3.14"
+
+[env]
+# Mise creates and activates this virtualenv automatically
+_.python.venv = { path = ".venv", create = true }
+
+[tasks.install]
+run = """
+pip install poetry
+poetry install
+"""
+
+[tasks.update]
+run = """
+pip install -U pip
+pip install -U poetry
+poetry update
+poetry show -o
+"""

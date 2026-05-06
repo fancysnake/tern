@@ -1,0 +1,22 @@
+[project]
+name = "tern"
+version = "0.1.0"
+description = "Narracyjna gra fabularna zbudowana na trójkach"
+authors = [
+    {name = "Radosław Ganczarek",email = "radoslaw@ganczarek.in"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mkdocs (>=1.6.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+package-mode = false
