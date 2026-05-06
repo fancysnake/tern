@@ -1,0 +1,6 @@
+globs:
+  - "**/*.md"
+ignores:
+  - ".venv/**"
+  - "node_modules/**"
+  - "site/**"
