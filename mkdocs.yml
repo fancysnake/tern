@@ -1,5 +1,15 @@
 site_name: Tern
 docs_dir: content
+
+theme:
+  name: material
+  language: pl
+  font:
+    text: Merriweather
+  palette:
+    primary: deep purple
+    accent: orange
+
 nav:
   - Strona główna: index.md
   - Mechanika: mechanika.md
